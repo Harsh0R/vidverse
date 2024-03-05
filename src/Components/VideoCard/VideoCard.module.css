@@ -1,0 +1,83 @@
+/* VideoCard.module.css */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #1e1e1e; /* Dark background */
+    color: #fff; /* Light text */
+    margin: 10px;
+    width: calc(100% - 20px); /* Adjust width for 2 cards per row, considering margin */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+  
+  .colMd4,
+  .colMd8 {
+    flex: 1; /* Flex grow to utilize available space */
+  }
+  
+  .imgFluid {
+    max-width: 100%;
+
+    margin-top: 22px;
+    height: auto;
+    border-radius: 8px 8px 0 0; /* Rounded top corners */
+  }
+  
+  .cardBody {
+    padding: 15px;
+  }
+  
+  .cardTitle {
+    margin-bottom: 15px;
+    color: #ff0000; /* YouTube-like red for titles */
+  }
+  
+  .cardText {
+    font-size: 14px;
+    color: #ccc; /* Lighter text for less emphasis */
+  }
+  
+  .textMuted {
+    color: #777; /* Muted text color */
+  }
+  
+  .inputGroup {
+    display: flex;
+    margin-top: 15px;
+  }
+  
+  .formControl {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #555; /* Darker border for input */
+    background-color: #333; /* Dark input background */
+    color: #fff; /* Light text */
+    margin-right: 5px; /* Space between input and button */
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    background-color: #ff0000; /* YouTube-like red for buttons */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #e50000; /* Darker red on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 100%; /* Full width for smaller screens */
+    }
+  }
+  

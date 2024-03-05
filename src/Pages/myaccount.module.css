@@ -1,0 +1,58 @@
+/* Assuming these styles will be added to a CSS module or a global stylesheet */
+
+.myAccountContainer {
+  background-color: #121212; /* Dark background for the page */
+  color: #ffffff; /* Light text color */
+  padding: 20px; /* Padding around the content */
+  margin-top: 80px;
+}
+
+.myAccountContainer h2,
+.myAccountContainer h3 {
+  color: #ff0000; /* YouTube-like red for headings */
+}
+
+.form-control {
+  background-color: #333; /* Dark background for inputs */
+  border: 1px solid #444; /* Slightly lighter border for contrast */
+  color: #fff; /* Light text color */
+  margin-bottom: 15px; /* Space between form elements */
+}
+
+.progress {
+  background-color: #444; /* Darker background for progress bar container */
+  border-radius: 20px; /* Rounded corners for progress bar */
+  overflow: hidden; /* Ensures the inner bar stays within the rounded corners */
+}
+
+.progress-bar {
+  background-color: #ff0000; /* YouTube-like red for progress */
+  width: 0%; /* Initial width, will be set dynamically */
+}
+
+.btn-primary {
+  background-color: #ff0000; /* YouTube-like red for buttons */
+  border: none; /* Remove default border */
+}
+
+.btn-primary:hover {
+  background-color: #e50000; /* Darker red on hover */
+}
+
+.list-group-item {
+  background-color: #1e1e1e; /* Dark background for list items */
+  color: #fff; /* Light text color */
+  border-color: #333; /* Dark border for separation */
+  margin-bottom: 10px; /* Space between list items */
+}
+
+.list-group-item small {
+  color: #777; /* Muted text for less important details (CID) */
+}
+
+video {
+  width: 100%; /* Ensure video takes full width of its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for videos */
+  margin-top: 10px; /* Space above the video */
+}
